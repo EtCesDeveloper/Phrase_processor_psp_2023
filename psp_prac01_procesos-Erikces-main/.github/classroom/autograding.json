@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Reemplazar Vocales",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 test --tests psp.prac01.ReemplazarVocalesTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Cantar",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 test --tests psp.prac01.CantarTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Procesar Frases",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 test --tests psp.prac01.ProcesarFrasesTest.okVocal*",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Procesos",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 test --tests psp.prac01.ProcesarFrasesTest.okProcess*",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Errores",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 test --tests psp.prac01.ProcesarFrasesTest.ko*",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Debug",
+      "setup": "",
+      "run": "gradle -Dfile.encoding=utf-8 --debug test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
